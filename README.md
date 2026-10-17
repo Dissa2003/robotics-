@@ -39,6 +39,11 @@ The launch file starts Gazebo, spawns the Burger at `(0.0, 0.0, 0.1)`, starts
 the simulation clock. The bridge intentionally uses `geometry_msgs/msg/Twist`
 for `/cmd_vel`, which matches the DQN node.
 
+If `/scan` or `/odom` has no messages, stop the old Gazebo process and relaunch
+after rebuilding. The world includes the Gazebo Sim physics, sensors, scene
+broadcaster, and user-command system plugins; an already-running Gazebo
+instance does not load changes made to the world file.
+
 ## 3. Build a map
 
 Leave the maze terminal running. In a second terminal:

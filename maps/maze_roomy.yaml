@@ -1,0 +1,12 @@
+# Reference occupancy map generated from optional widened Gazebo walls.
+# NOT a LiDAR SLAM measurement.
+image: maze_roomy.pgm
+mode: trinary
+resolution: 0.02
+origin:
+- -2.4
+- -2.4
+- 0.0
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.25

@@ -1,0 +1,7 @@
+goal_cell,method,success,steps,traveled_m,invalid_actions,optimal_grid_steps,path_efficiency
+5,DQN_GRID,1,23,11.5,0,23,1.0
+5,SHORTEST_GRID,1,23,11.5,0,23,1.0
+17,DQN_GRID,1,25,12.5,0,25,1.0
+17,SHORTEST_GRID,1,25,12.5,0,25,1.0
+35,DQN_GRID,1,10,5.0,0,10,1.0
+35,SHORTEST_GRID,1,10,5.0,0,10,1.0

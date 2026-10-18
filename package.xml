@@ -1,19 +1,22 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0"?>
 <package format="3">
-  <name>maze_world</name>
-  <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="palitmithila@todo.todo">palitmithila</maintainer>
-  <license>TODO: License declaration</license>
-  <buildtool_depend>ament_cmake</buildtool_depend>
-  <test_depend>ament_lint_auto</test_depend>
-  <test_depend>ament_lint_common</test_depend>
-  <export>
-    <build_type>ament_cmake</build_type>
-  </export>
+  <name>ie4060_maze</name>
+  <version>0.1.0</version>
+  <description>IE4060 TurtleBot3 Burger custom maze simulation, mapping, Nav2 and grid-world DQN baseline.</description>
+  <maintainer email="student@example.com">IE4060 Student Group</maintainer>
+  <license>Apache-2.0</license>
+  <buildtool_depend>ament_python</buildtool_depend>
   <exec_depend>launch</exec_depend>
   <exec_depend>launch_ros</exec_depend>
   <exec_depend>ament_index_python</exec_depend>
   <exec_depend>ros_gz_sim</exec_depend>
   <exec_depend>turtlebot3_gazebo</exec_depend>
+  <exec_depend>turtlebot3_navigation2</exec_depend>
+  <exec_depend>slam_toolbox</exec_depend>
+  <exec_depend>nav2_bringup</exec_depend>
+  <exec_depend>nav2_msgs</exec_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>action_msgs</exec_depend>
+  <export><build_type>ament_python</build_type></export>
 </package>
